@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@font-face {
+    font-family: 'bloodcrows';
+    font-style: normal;
+    font-weight: normal;
+    src: local('bloodcrows'), url('bloodcrows.woff') format('woff');
+}
+ 
+ *{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Poppins", sans-serif;
+ }
+ html,body{
+    height: 100%;
+    width: 100%;
+ }
+
+ .nav{
+   background: transparent;
+   width: 85%;
+   margin: auto;
+   padding: 35px 0;
+   display: flex;
+   align-items: center;
+   font-size: 100;
+   font-weight: bold;
+   justify-content: space-between;
+   position: fixed;
+   display: flex;
+}
+.nav ul li{
+   list-style: none;
+   display: inline-block;
+   margin: 0 20px;
+   position: relative;
+}
+.nav ul li a{
+   text-decoration: none;
+   color: #f1f1f1;
+   text-transform: uppercase;
+}
+.content{
+   width: 100%;
+   position: absolute;
+   top: 30%;
+   text-align: center;
+   color: #f1f1f1;
+}
+.content h1{
+   font-family: 'BloodCrows', sans-serif;
+   font-size: 159px;
+   margin-top: 80px;
+   font-weight: 158;    
+}
+.content p{
+   margin: 20px auto;
+   font-weight: 100%;
+   font-size: large;
+   line-height: 25px;
+   font-size: 80;
+}
+.button1  {
+ 
+   text-transform: uppercase;
+   width: 200px;
+   padding: 15px 0;
+   font-size:larger;
+   text-align: center;
+   margin: 20px 10px;
+   border-radius: 25px;
+   border: none;
+   font-weight: bold;
+   color: black;
+   position: relative;
+   background-color: #f1f1f1;
+   text-decoration: none;
+}
+ #page{
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(rgba(0, 0, 0,0.45),rgba(0, 0, 0, 0.45)),url(cover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ 
+ #page1{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-image: linear-gradient(to right,rgba(255, 255, 255, 0),rgba(0, 0, 0, 0.700),black),url(tanjiro.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ #page1>#right-text{
+    position:absolute;
+    top: 10%;
+    left: 70%;
+
+ }
+ #page1>#right-text>h3{
+    font-size: 37px;
+    font-weight: normal;
+    color: #f1f1f1;
+ }
+.container{
+    overflow: hidden;
+ }
+ .container-inner h5{
+    width: 100%;
+    height: 610px;
+    text-align: left;
+    top: 2%;
+    font-size: 135%;
+    color: #f1f1f1;
+    font-weight: normal;
+    line-height: 1.7;
+    margin-left: 30%;
+    overflow-y:auto;
+ }
+ 
+ #page2{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-image: linear-gradient(to right,black,rgba(0, 0, 0, 0.900),rgba(255, 255, 255, 0)),url(cover1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+ }
+ #page2>#left-text{
+    position:absolute;
+    top: 20%;
+    left: 5%;
+    width: 50%;
+    height: 50%;
+    color: #f1f1f1;
+
+ }
+ #page2>#left-text>h3{
+    font-size: 35px;
+    font-weight: normal;
+    color: #f1f1f1;
+ }
+ .season1{
+   margin-top: 6%;
+   margin-left: 5%;
+   font-size: 120%;
+   font-weight: normal;
+ }
+ .season2{
+   margin-top: 4%;
+   margin-left: 5%;
+   font-size: 120%;
+   font-weight: normal;
+ }
+ .season3{
+   margin-top: 4%;
+   margin-left: 5%;
+   font-size: 120%;
+   font-weight: normal;
+ }
+ .season4{
+   margin-top: 4%;
+   margin-left: 5%;
+   font-size: 120%;
+   font-weight: normal;
+ }
+ #page3{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-image: linear-gradient(45deg,rgb(0, 0, 0),rgba(255, 255, 255, 0)),url(endzen.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+.contact{
+   height: 80%;
+   width: 48%;
+   border-radius: 48px;
+   background:black;
+   box-shadow: 0 0 20px 0 #ed9923;
+   top: 48%;
+   left: 35%;
+   transform: translate(-50%, -50%);
+   position: absolute;
+
+}
+.contact h3{
+   padding-top: 38px;
+   margin-left: 38%;
+   font-weight: bold;
+   font-size: 35px;
+   font-weight: normal;
+   color: #f1f1f1;
+}
+.input_form{
+   width: 420px;
+   height: 35px;
+   margin-top: 25px;
+   padding: 4px;
+   margin-left: 18%;
+}
+.input{  
+   height: 50px;
+   width: 420px;
+   border: 2px solid rgb(216, 161, 66);
+   border-radius: 14px;
+   outline: none;
+   padding-left: 12px;
+   font-size: 13px;
+}
+.textarea{
+   height: 130px;
+   padding-left: 12px;
+   padding-top: 10px;
+   width: 420px;
+   border: 2px solid rgb(255, 169, 21);
+   border-radius: 14px;
+   font-size: 13px;
+}
+.btn{
+   height: 47px;
+   width: 120px;
+   border-radius: 25px;
+   font-size: 18px;
+   margin-top: 140px;
+   margin-left: 19%;
+   background-color: rgb(255, 169, 21);
+}
